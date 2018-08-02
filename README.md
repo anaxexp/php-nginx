@@ -1,20 +1,20 @@
 # Nginx for PHP-FPM Docker Container Image 
 
 [![Build Status](https://travis-ci.org/anaxexp/php-nginx.svg?branch=master)](https://travis-ci.org/anaxexp/php-nginx)
-[![Docker Pulls](https://img.shields.io/docker/pulls/anaxexperience/php-nginx.svg)](https://hub.docker.com/r/anaxexperience/php-nginx)
-[![Docker Stars](https://img.shields.io/docker/stars/anaxexperience/php-nginx.svg)](https://hub.docker.com/r/anaxexperience/php-nginx)
-[![Docker Layers](https://images.microbadger.com/badges/image/anaxexperience/php-nginx.svg)](https://microbadger.com/images/anaxexperience/php-nginx)
+[![Docker Pulls](https://img.shields.io/docker/pulls/anaxexp/php-nginx.svg)](https://hub.docker.com/r/anaxexp/php-nginx)
+[![Docker Stars](https://img.shields.io/docker/stars/anaxexp/php-nginx.svg)](https://hub.docker.com/r/anaxexp/php-nginx)
+[![Docker Layers](https://images.microbadger.com/badges/image/anaxexp/php-nginx.svg)](https://microbadger.com/images/anaxexp/php-nginx)
 
 ## Docker Images
 
-❗For better reliability we release images with stability tags (`anaxexperience/php-nginx:1.15-X.X.X`) which correspond to [git tags](https://github.com/anaxexp/php-nginx/releases). We strongly recommend using images only with stability tags. 
+❗For better reliability we release images with stability tags (`anaxexp/php-nginx:1.15-X.X.X`) which correspond to [git tags](https://github.com/anaxexp/php-nginx/releases). We strongly recommend using images only with stability tags. 
 
 Overview:
 
 * All images are based on Alpine Linux
-* Base image: [anaxexperience/nginx](https://github.com/anaxexp/nginx)
+* Base image: [anaxexp/nginx](https://github.com/anaxexp/nginx)
 * [Travis CI builds](https://travis-ci.org/anaxexp/php-nginx) 
-* [Docker Hub](https://hub.docker.com/r/anaxexperience/php-nginx)
+* [Docker Hub](https://hub.docker.com/r/anaxexp/php-nginx)
 
 Supported tags and respective `Dockerfile` links:
 
@@ -35,17 +35,17 @@ Supported tags and respective `Dockerfile` links:
 | `NGINX_FASTCGI_READ_TIMEOUT`     | `900`            |             |
 | `NGINX_INDEX_FILE`               | `index.php`      |             |
 
-See [anaxexperience/nginx](https://github.com/anaxexp/nginx) for all variables.
+See [anaxexp/nginx](https://github.com/anaxexp/nginx) for all variables.
 
 ## Orchestration Actions
 
-See [anaxexperience/nginx](https://github.com/anaxexp/nginx) for all actions.
+See [anaxexp/nginx](https://github.com/anaxexp/nginx) for all actions.
 
 ## Complete PHP stack
 
-See [anaxexperience/docker4php](https://github.com/anaxexp/docker4php) for the complete PHP stack.
+See [anaxexp/docker4php](https://github.com/anaxexp/docker4php) for the complete PHP stack.
 
-## Images based on `anaxexperience/php-nginx`
+## Images based on `anaxexp/php-nginx`
 
-* [anaxexperience/drupal-nginx](https://github.com/anaxexp/drupal-nginx)
-* [anaxexperience/wordpress-nginx](https://github.com/anaxexp/wordpress-nginx)
+* [anaxexp/drupal-nginx](https://github.com/anaxexp/drupal-nginx)
+* [anaxexp/wordpress-nginx](https://github.com/anaxexp/wordpress-nginx)
