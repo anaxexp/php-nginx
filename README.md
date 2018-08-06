@@ -43,7 +43,7 @@ See [anaxexp/nginx](https://github.com/anaxexp/nginx) for all actions.
 
 ## Complete PHP stack
 
-See [anaxexp/docker4php](https://github.com/anaxexp/docker4php) for the complete PHP stack.
+See [anaxexp/php4docker](https://github.com/anaxexp/php4docker) for the complete PHP stack.
 
 ## Images based on `anaxexp/php-nginx`
 

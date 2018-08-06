@@ -10,7 +10,7 @@ services:
     volumes:
       - codebase:/var/www/html
   php:
-    image: anaxexp/php
+    image: php
     volumes:
       - codebase:/var/www/html
 
